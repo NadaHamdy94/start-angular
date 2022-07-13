@@ -1,0 +1,12 @@
+<app-navbar (linkClicked)="linkClicked=$event"></app-navbar>
+
+<div *ngIf="linkClicked == true;else elseBlock">
+    <app-home></app-home>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+</div>
+
+<ng-template #elseBlock>
+    <router-outlet></router-outlet>
+</ng-template>
+

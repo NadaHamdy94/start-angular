@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../src/assets/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: Lato;
+    src: url('../src/assets/fonts/Lato-Regular.ttf');
+}
+a
+{
+    cursor: pointer;
+}
+h2
+{
+    font-family: Montserrat ;
+    font-size: 40px;
+    color: #2c3e50;
+}
+.start-icon
+{
+    position: relative;
+}
+.start-icon::before
+{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.start-icon::after
+{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}

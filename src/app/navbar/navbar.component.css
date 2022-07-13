@@ -1,0 +1,51 @@
+.navbar
+{
+    z-index: 999;
+}
+.navbar a 
+{
+    font-family: Montserrat;
+    color:white;
+}
+.nav-item a:hover
+{
+    color: #1abc9c;
+}
+.navbar
+{
+    background-color: #2C3E50;
+}
+.navbar-brand  
+{
+    font-size: 28px;
+}
+.navbar-toggler
+{
+    background-color:#1abc9c ;
+    font-family: Montserrat;
+    font-size: 13px;
+    border: 1px solid #1abc9c;
+}
+.navbar-toggler:focus
+{
+    border: 1px solid black;  
+} 
+@media screen and (max-width:991px){
+    .navbar-brand 
+    {
+        font-size: 18px;
+    }
+    .navbar-toggler
+    {
+        font-size: 11px;
+    }
+    .nav-link 
+    {
+        font-size: 14px;
+    }
+}
+.active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+}

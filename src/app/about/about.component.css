@@ -1,0 +1,55 @@
+#aboutSec
+{
+    background-color: #1abc9c;
+}
+.start-icon::before
+{
+    left:39%;
+}
+.start-icon::after
+{
+    right:39%;
+}
+i
+{
+    color: #2C3E50;
+}
+.fa-plus
+{
+    font-size: 60px;
+}
+@media screen and (max-width:776px){
+    .start-icon::before
+    {
+        left: 25%;
+    }
+    .start-icon::after
+    {
+        right: 25%;
+    }
+}
+@media screen and (min-width:768px)and (max-width:991px){
+    .start-icon::before
+    {
+        left:32%;
+    }
+    .start-icon::after
+    {
+        right:32%;
+    }
+}
+@media screen and (min-width:992px)and (max-width:1200px){
+    .start-icon::before
+    {
+        left: 37%;
+    }
+    .start-icon::after
+    {
+        right: 37%;
+    }
+}
+p
+{
+    font-family: Lato;
+    font-size: 18px;
+}
